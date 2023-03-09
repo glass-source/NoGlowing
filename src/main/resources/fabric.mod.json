@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "noglowing",
+  "version": "${version}",
+  "name": "No Glowing",
+  "description": "Mod that removes the glowing overlay from the game",
+  "authors": ["Asunder"],
+  "contact": {
+    "twitter": "https://twitter.com/pillcored",
+    "sources": "https://github.com/asunder/NoGlowing"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/noglowing/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.asunder.noglowing.client.NoGlowingClient"
+    ],
+    "main": [
+      "com.asunder.noglowing.NoGlowing"
+    ]
+  },
+  "mixins": [
+    "NoGlowing.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.3",
+    "java": ">=17"
+  }
+}
