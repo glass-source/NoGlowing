@@ -3,11 +3,11 @@
   "id": "noglowing",
   "version": "${version}",
   "name": "No Glowing",
-  "description": "Mod that removes the glowing overlay from the game",
+  "description": "Mod that prevents the glowing effect overlay from rendering",
   "authors": ["Asunder"],
   "contact": {
-    "twitter": "https://twitter.com/pillcored",
-    "sources": "https://github.com/asunder/NoGlowing"
+    "sources": "https://github.com/glass-source/NoGlowing",
+    "homepage": "https://twitter.com/pillcored"
   },
   "license": "All-Rights-Reserved",
   "icon": "assets/noglowing/icon.png",
